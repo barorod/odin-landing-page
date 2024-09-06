@@ -117,3 +117,21 @@ a {
   font-size: 18px;
   text-align: center;
 }
+
+.quote {
+  background-color: #e5e7eb;
+  padding: 120px 600px;
+}
+
+.quote-content {
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.author {
+  text-align: end;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 50px;
+}
