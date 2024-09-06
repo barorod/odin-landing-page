@@ -20,7 +20,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 0;
+  padding: 30px 100px;
 }
 
 ul {
@@ -44,8 +44,8 @@ a {
 .hero-intro {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  width: 600px;
+  gap: 16px;
+  width: 480px;
 }
 
 .hero-intro h1 {
@@ -57,13 +57,14 @@ a {
 .hero-intro p {
   color: #e5e7eb;
   font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 .hero-flex {
   display: flex;
   justify-content: space-between;
-  gap: 25px;
-  padding: 120px 0;
+  padding: 120px 100px;
 }
 
 .hero-image {
@@ -71,12 +72,12 @@ a {
   background-color: slategray;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 300px;
+  width: 540px;
+  height: 280px;
 }
 
 .btn {
-  padding: 6px 12px;
+  padding: 8px 12px;
   background-color: #3882f9;
   width: 120px;
   text-align: center;
@@ -134,4 +135,46 @@ a {
   font-size: 18px;
   font-weight: 700;
   margin-right: 50px;
+}
+
+.cta-section {
+  padding: 100px 200px;
+}
+
+.cta {
+  background-color: #3882f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 40px 60px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+.cta h2 {
+  color: #f9faf8;
+}
+
+.cta p {
+  color: #e5e7eb;
+  font-weight: 200;
+}
+
+.cta-btn {
+  padding: 6px 12px;
+  background-color: #3882f9;
+  border: 3px solid #f9faf8;
+  width: 120px;
+  text-align: center;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-weight: 400;
+  padding: 18px;
+  text-align: center;
 }
